@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 180px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.total {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+}
+
+.critical {
+  background: linear-gradient(135deg, #ef4444, #991b1b);
+}
+
+.high {
+  background: linear-gradient(135deg, #f97316, #c2410c);
+}
+
+.medium {
+  background: linear-gradient(135deg, #facc15, #ca8a04);
+  color: black;
+}
+
+.low {
+  background: linear-gradient(135deg, #22c55e, #166534);
+}
+
+textarea {
+  width: 700px;
+  max-width: 90%;
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.search-box {
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  border-collapse: collapse;
+  background: #1e293b;
+}
+
+th {
+  background: #334155;
+}
+
+th,
+td {
+  border: 1px solid #475569;
+  padding: 12px;
+}
+
+tr:hover {
+  background: #334155;
+}
+
+.result-box {
+  margin-top: 30px;
+}
+
+.dashboard-chart {
+  width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
